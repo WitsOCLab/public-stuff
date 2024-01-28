@@ -14,6 +14,6 @@ https://bibbase.org/documentation
 
 We can use the following RegEx's in Notepad++ to clean the files (Replace All with blank), in the case they were exported from Mendeley:
 
-file\s*=\s*{.*?:.*?},\r?\n 
+`file\s*=\s*{.*?:.*?},\r?\n`
 
-mendeley-groups\s*=\s*{.*?},\r?\n
+`mendeley-groups\s*=\s*{.*?},\r?\n`
