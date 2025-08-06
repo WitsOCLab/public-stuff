@@ -91,7 +91,23 @@ url = {https://doi.org/10.1088/2515-7647/ad7e8c https://iopscience.iop.org/artic
 volume = {6},
 year = {2024}
 }
-
+@article{Swiel2024,
+abstract = {Summary: Genome-wide association studies (GWASs) analyse genetic variation across many individuals to identify single-nucleotide polymorphisms (SNPs) associated with complex traits. They typically include millions of SNPs from thousands of individuals, creating a multiple testing problem where the probability of false associations increases with the number of SNPs tested. While permutation testing provides accurate control of false positive rates, it is computationally expensive and slow for large datasets. This research presents an FPGA-based tool designed for cloud deployment on AWS EC2 instances that significantly accelerates GWAS permutation testing for continuous phenotypes. The tool implements two algorithms: maxT and adaptive permutation testing. Performance comparisons using a breast cancer dataset (13.7 million SNPs from 3652 individuals) showed large speedups over PLINK running on 40 CPU cores. For 1000 maxT permutations, the FPGA tool completed analysis in 22 min versus PLINK's 7 days. For 100 million adaptive permutations, FPGA required 325 min compared to PLINK's 8.5 days. The tool handled 700 million adaptive permutations in 33 h—a workload which would require over a month for CPU-based analysis. FPGA solution provides accessible, order-of-magnitude performance improvements without requiring FPGA expertise or dedicated cluster access.},
+author = {Swiel, Yaniv and Brandenburg, Jean-Tristan and Hayat, Mahtaab and Chen, Wenlong Carl and Cox, Mitchell A. and Hazelhurst, Scott},
+doi = {10.1093/bioadv/vbaf145},
+editor = {Ouangraoua, Aida},
+issn = {2635-0041},
+journal = {Bioinformatics Advances},
+keywords = {algorithms,association study,multiple testing,parallel computing},
+mendeley-groups = {Group},
+month = {dec},
+number = {1},
+pages = {1--10},
+title = {{FPGA acceleration of GWAS permutation testing}},
+url = {https://www.biorxiv.org/content/10.1101/2022.03.11.483235v1{\%}0Ahttps://www.biorxiv.org/content/10.1101/2022.03.11.483235v1.abstract https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbaf145/8167874 https://academic.oup.com/bioinformaticsadvances/article/doi/10.1093/bioadv/vbaf145/8167874},
+volume = {5},
+year = {2024}
+}
 @ARTICLE{10547564,
   author={Imran, Muhammad A. and Zennaro, Marco and Popoola, Olaoluwa R. and Chiaraviglio, Luca and Zhang, Hongwei and Manzoni, Pietro and van de Beek, Jaap and Stewart, Robert and Cox, Mitchell Arij and Mendes, Luciano Leonel and Pietrosemoli, Ermanno},
   journal={Proceedings of the IEEE}, 
